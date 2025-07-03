@@ -35,3 +35,15 @@ reverse_string('racecar') # "racecar"
 reverse_string('Racecar') # "racecaR"
 reverse_string('hello') # Выбрасывает исключение ValueError с сообщением "Argument must be a palindrome"
 ```
+
+Создайте декоратор 
+@logging
+, который будет логировать вызовы функции и ее результат. Лог должен выводиться на экран.
+Пример вывода:
+```commandline
+@logging
+def multiply(x, y):
+    return x * y
+multiply(2, 3) 
+>>> Function multiply called with args: (2, 3) and kwargs: {}. Result: 6
+```
